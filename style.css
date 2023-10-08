@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    line-height: 1;
+    background-color: #f1f1f1;
+}
+
+
+/*font-family: 'Poppins', sans-serif;*/
+
+
+/*---------------Header-------------*/
+
+.block-header .inner {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.block-header .logo {
+    flex-basis: 50%;
+}
+
+.block-header .menu .telecharger {
+    background: #0061FF;
+    padding: 1rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.block-header .menu .telecharger a {
+    color: white;
+}
+
+.block-header .menu .connexion {
+    padding: 1rem;
+    background: #e7e7e7;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.block-header .menu .connexion a {
+    color: #0061FF;
+}
+
+.block-header .logo a {
+    display: flex;
+}
+
+.block-header .logo img {
+    max-width: 4vw;
+}
+
+.block-header .menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.block-header .menu li:not(:first-child) {
+    border-left: 1px solid rgba(255, 255, 255, .5);
+}
+
+.block-header .menu a {
+    padding: 1rem;
+    font: .8rem 'Poppins';
+    text-transform: uppercase;
+}
+
+
+/*-------Information------*/
+
+.block-information {
+    background: #f1f1f1;
+    width: 1140px;
+    margin: 3rem auto 7rem;
+    justify-content: space-between;
+    border-radius: 20px;
+    display: flex;
+    padding: 3rem;
+}
+
+.block-information img {
+    flex-basis: 50%;
+    max-width: 40vh;
+    margin: 2rem 5rem 0rem 2rem;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.texte {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+}
+
+.block-information .image {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font: .8rem 'Poppins';
+    font-style: italic;
+}
+
+.block-information .image p {
+    margin-left: 2.5rem;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 1rem;
+    background: #0061FF;
+    border: 0;
+    color: #ddd;
+    font: .9rem 'Poppins';
+}
+
+.block-information .texte h1 {
+    font: 3rem 'Poppins', bold;
+}
+
+.block-information .texte p {
+    padding-top: 0;
+    font: 1rem 'Poppins', lighter;
+}
